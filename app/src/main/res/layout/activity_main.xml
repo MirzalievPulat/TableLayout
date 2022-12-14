@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:stretchColumns="1"
+        android:padding="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25dp"
+                android:layout_span="2"
+                android:text="Login page"
+                android:textSize="36sp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            >
+            <TextView
+                android:text="ID:"
+                android:textSize="22sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <EditText
+                android:hint="ID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            >
+            <TextView
+                android:text="Password:"
+                android:textSize="22sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <EditText
+                android:hint="Password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_marginTop="40dp"
+                android:layout_span="2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Next" />
+
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
